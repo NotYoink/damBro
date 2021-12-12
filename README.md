@@ -256,3 +256,4 @@ Belangrijke regels code:
             return_y = y + 1;
         }
     }
+![2021 12 12-18 15](https://user-images.githubusercontent.com/58341777/145722469-e0fb6cd6-f277-450f-b51e-2037da7f98ac.png)

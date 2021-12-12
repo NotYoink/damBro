@@ -233,3 +233,26 @@ Belangrijke regels code:
             }
         }
     }
+    public void VakCheck(int x, int y, ref int return_x, ref int return_y, int i)
+    {
+        if (i == 0 && x != -1 && x <= 8 && y <= 8)
+        {
+            return_x = x + 1;
+            return_y = y + 1;
+        }
+        if (i == 1 && x != -1 && x <= 8 && y >= 1)
+        {
+            return_x = x + 1;
+            return_y = y - 1;
+        }
+        if (i == 2 && x != -1 && x >= 1 && y >= 1)
+        {
+            return_x = x - 1;
+            return_y = y - 1;
+        }
+        if (i == 3 && x != -1 && x >= 1 && y <= 8)
+        {
+            return_x = x - 1;
+            return_y = y + 1;
+        }
+    }
